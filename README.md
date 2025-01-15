@@ -94,14 +94,12 @@ export interface Report {
 ## Improvements
 > If you do not need to translate your portfolio and have many experiences, projects, or reports, you can create TypeScript files, export them as constants, and use them in your components. However, since Svelte does not create a store subscription for the language, you will not see language changes in real-time.
 
-## Building
+## Tracking
+I have set up basic Google Analytics tracking to gather visitor information for personal statistics.
 
-To create a production version of your app:
+# Building
+I used Vercel to deploy my portfolio to production for free. I also purchased the domain name `augustinrolet.com` through Vercel. You can find instructions on buying a domain [here](https://vercel.com/docs/getting-started-with-vercel/buy-domain).
 
-```bash
-npm run build
-```
+If you are not using Vercel, remember to edit `svelte.config.js` with the appropriate adapter. I used the Vercel adapter, which you can find [here](https://svelte.dev/docs/kit/adapter-vercel).
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+You can easily sign up with your GitHub account and deploy your portfolio with Vercel in just a few minutes.
