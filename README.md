@@ -1,29 +1,98 @@
-# sv
+# Augustin ROLET Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is my portfolio; you can use it as a template and modify it with attribution to my work. I have developed a dark mode and added a French translation.
 
-## Creating a project
+![Portfolio](readme/portfolio.png)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Getting Started
 
+Clone the repository:
 ```bash
-# create a new project in the current directory
-npx sv create
+git clone https://github.com/teloryfrozy/portfolio
 
-# create a new project in my-app
-npx sv create my-app
-```
+npm install
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+
+# Home Page
+In this section, you can provide a brief presentation of who you are and what you do. I have included my tech stack and contact links.
+
+I have added my résumé for recruiters or curious visitors to download.
+
+# Projects
+List all your projects in `src/routes/projects/+page.svelte`, matching the Project interface:
+```ts
+interface Project {
+    title: string;
+    startDate: Date;
+    endDate?: Date;
+    description: string;
+    advancedDescription: string;
+    tasks: string[];
+    details: string[];
+    skills: string[];
+    images: string[];
+    githubLink?: string;
+}
+```
+
+![Projects](readme/projects.png)
+
+# Experiences
+Include all your relevant professional experiences in `src/routes/experiences/+page.svelte`, matching the Experience interface:
+```ts
+interface Experience {
+    country: string;
+    company: string;
+    role: string;
+    startDate: Date;
+    endDate?: Date;
+    tasks: string[];
+    technologies: string[];
+    website?: string;
+    logo: string;
+}
+```
+
+![Experiences](readme/experiences.png)
+
+# Education
+List all your educational experiences/degrees/current involvements in `src/routes/educations/+page.svelte`, matching the Education interface:
+```ts
+interface Education {
+    country: string;
+    organization: string;
+    degree: string;
+    startDate: Date;
+    endDate: Date;
+    duration: string;
+    courses: string[];
+    website?: string;
+    logo: string;
+}
+```
+
+![Educations](readme/educations.png)
+
+# Reports and Publications
+
+Additionally, you can publish your internship reports, scientific publications you are proud of, and other relevant papers that showcase your skills in creating well-crafted professional documents.
+
+You can find these in `src/routes/reports/+page.svelte`, matching the Report interface:
+```ts
+export interface Report {
+    title: string;
+    date: Date;
+    description: string;
+    filename: string;
+}
+```
+
+![Reports](readme/reports.png)
+
+## Improvements
+> If you do not need to translate your portfolio and have many experiences, projects, or reports, you can create TypeScript files, export them as constants, and use them in your components. However, since Svelte does not create a store subscription for the language, you will not see language changes in real-time.
 
 ## Building
 
