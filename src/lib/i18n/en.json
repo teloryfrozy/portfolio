@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "reports": "Reports",
+    "contact": "Contact",
+    "downloadCV": "Download Résumé"
+  },
+  "techStack": {
+    "title": "Tech Stack I have relevant experience with",
+    "categories": {
+      "programming": "Programming Languages",
+      "frameworks": "Frameworks",
+      "tools": "Development Tools"
+    }
+  },
+  "contact": {
+    "title": "Contact me"
+  },
+  "about": {
+    "hi": "Hi",
+    "description": [
+      "I am a 3rd-year student at ESAIP, aspiring to become a Software Engineer.",
+      "I am a self-taught Python developer, with two years of experience in web development.",
+      "I am currently looking for a 3 to 4 months international summer internship in the tech industry."
+    ]
+  },
+  "reports": {
+    "description": "All these reports were written in LaTeX, documenting my learning journey in various technical areas.",
+    "downloadButton": "Download Report",
+    "items": {
+      "ai": {
+        "title": "Introduction to AI",
+        "description": "As a complete beginner in AI at that time, I researched and summarized everything I could find to understand the basics. This report reflects my journey from knowing nothing to grasping fundamental concepts."
+      },
+      "trigonometry": {
+        "title": "Trigonometric Formulas Demonstration",
+        "description": "During my first year in English preparatory class, I wanted to understand where trigonometric formulas came from. I combined various YouTube demonstrations and online resources to create this comprehensive proof guide."
+      },
+      "latvia": {
+        "title": "Latvia Summer School Guide",
+        "description": "After my first study abroad experience, I created this guide for other ESAIP students. It covers everything from what to pack to how to prepare, helping future students feel more confident about their trip."
+      },
+      "network": {
+        "title": "Network Beginner Guide",
+        "description": "When I started learning networking, I created this guide to remember key concepts. It includes a custom script I developed for IP calculations and subnet mask computations available on GitHub."
+      }
+    }
+  },
+  "projects": {
+    "viewGithub": "View on GitHub",
+    "viewDetails": "View Details",
+    "skills": "Skills",
+    "details": "Project Details",
+    "items": {
+      "aomail": {
+        "title": "Aomail",
+        "description": "AI-powered email automation platform for smart categorization and management.",
+        "advancedDescription": "Aomail is a web application designed to help users manage their emails more efficiently with the support of AI. In this project, I contributed to multiple aspects of the software development process.",
+        "tasks": [
+          "Developed landing page and main web application",
+          "Implemented OAuth2.0 for Gmail & Outlook integration",
+          "Built admin dashboard for analytics and user management",
+          "Created a blog website for SEO"
+        ],
+        "details": [
+          "Completely refactored landing page using Svelte, focusing on performance optimization and responsive design principles.",
+          "Successfully implemented OAuth2.0 integration for Gmail & Outlook, passing security audits by TAC Security and Google's verification process.",
+          "Developed an advanced email categorization system using LLM workflows, enabling customizable sorting based on user preferences and behavior.",
+          "Implemented real-time email notifications through webhooks for Gmail & Outlook, integrated Stripe payment processing, and optimized email loading with efficient lazy loading techniques.",
+          "Implemented comprehensive multilingual support using i18n, with full French language translations throughout the application.",
+          "Built an SEO-optimized information website using Spring Boot and PostgreSQL, implementing GA4 tracking and secure deployment practices.",
+          "Created an analytics dashboard displaying cost metrics, token usage statistics, and user management capabilities."
+        ],
+        "skills": [
+          "Svelte",
+          "Django",
+          "PostgreSQL",
+          "Vue.js",
+          "Docker",
+          "Nginx",
+          "TypeScript",
+          "React",
+          "Spring Boot"
+        ]
+      },
+      "server": {
+        "title": "Minecraft Server + Backup Server",
+        "description": "Self-hosted Minecraft server and automated backup system for personal files.",
+        "advancedDescription": "I wanted to have a local backup system as I do not want to learn the importance of a backup the hard way. I also made a Minecraft server to play with my brothers and friends.",
+        "tasks": [
+          "Configured local Minecraft server with proper networking setup",
+          "Implemented SSH-based remote management system",
+          "Developed automated backup solution with encryption"
+        ],
+        "details": [
+          "Repurposed an old PC into a local server for hosting and backups.",
+          "Configured a headless server with static IP addressing through DHCP for reliable remote access.",
+          "Configured secure port forwarding and firewall rules to protect external Minecraft connections.",
+          "Established automated disk mounting on startup and normal start-up after power outage for reliable headless operation.",
+          "Implemented a robust encrypted backup system using Duplicati for secure file protection."
+        ],
+        "skills": [
+          "Debian",
+          "SSH",
+          "Duplicati",
+          "Networking"
+        ]
+      },
+      "pcBuilding": {
+        "title": "PC Building",
+        "description": "Building gaming PCs for myself and friends.",
+        "advancedDescription": "I have been building Gaming PCs since I was 15 with my own computer. I have been interested in understanding how a computer works since. I am always focused on the best performance/cost ratio.",
+        "tasks": [
+          "Component selection and compatibility verification",
+          "Assembly and cable management",
+          "Performance testing benchmark",
+          "OS + Software installation"
+        ],
+        "details": [
+          "Looking for the best value by comparing prices of new and used components.",
+          "Ensuring all parts are compatible to avoid issues during assembly.",
+          "Testing performance using simple benchmarking tools and games.",
+          "Organizing cables neatly and setting up good airflow for better cooling.",
+          "Building PCs based on what the person needs, like gaming or everyday use."
+        ],
+        "skills": [
+          "Hardware",
+          "BIOS",
+          "Windows"
+        ]
+      },
+      "laBrotique": {
+        "title": "La Bro'tique",
+        "description": "Side business on Vinted with a €15k turnover.",
+        "advancedDescription": "My first company, which I started with my brother. I used to play Pokémon on my Nintendo 3DS a lot when I was a kid. I enjoy selling used products in good condition that offer great deals for both the buyer and the seller.",
+        "tasks": [
+          "Reverse engineering of the Vinted API",
+          "Automated sales management through an app",
+          "Customer service and logistics",
+          "Achieved over 400 sales and a turnover of €15,000"
+        ],
+        "details": [
+          "Founded a reselling business specializing in Nintendo consoles and accessories.",
+          "Repaired and refurbished consoles, creating value-added bundles with accessories.",
+          "Always prioritized customer satisfaction and offered refunds when necessary.",
+          "Achieved consistent monthly sales for 10 consecutive months."
+        ],
+        "skills": [
+          "Automation",
+          "Business Management",
+          "Entrepreneurship"
+        ]
+      }
+    }
+  },
+  "experiences": {
+    "itInternCesame": {
+      "country": "France",
+      "role": "IT Intern",
+      "tasks": [
+        "Learned VLANs, switches, and RAID methods",
+        "Performed Wi-Fi site analysis using NetSpot",
+        "Deployed and configured computers on-site",
+        "Explored reverse engineering concepts"
+      ],
+      "technologies": [
+        "VLAN",
+        "PowerShell",
+        "PuTTY",
+        "NetSpot"
+      ]
+    },
+    "itTechnicianCesame": {
+      "country": "France",
+      "role": "IT Technician",
+      "tasks": [
+        "Deployed workstations on-site",
+        "Created PowerShell software deployment scripts",
+        "Migrated switches from PRTG to SolarWinds",
+        "Updated switch monitoring maps"
+      ],
+      "technologies": [
+        "PowerShell",
+        "Windows",
+        "PRTG",
+        "SolarWinds"
+      ]
+    },
+    "developerInternCDS": {
+      "country": "France",
+      "role": "Developer Intern",
+      "tasks": [
+        "Integrated APIs between front-end and back-end",
+        "Converted Figma designs into React components",
+        "Implemented R&D computation in backend",
+        "Worked on Cognitive Screening"
+      ],
+      "technologies": [
+        "React",
+        "Electron",
+        "TypeScript",
+        "Django",
+        "Figma",
+        "Monday",
+        "SQLite"
+      ]
+    }
+  },
+  "educations": {
+    "saintBenoit": {
+      "country": "France",
+      "organization": "Saint-Benoît site Collégiale",
+      "degree": "French Baccalaureate",
+      "courses": [
+        "Discovery of well known algorithms",
+        "Implementation of basic graphs in Python",
+        "Intro to data structures and OOP"
+      ]
+    },
+    "rigaTechnicalUniversity": {
+      "country": "Latvia",
+      "organization": "Riga Technical University",
+      "degree": "Computer Science Summer School",
+      "courses": [
+        "First time studying abroad",
+        "Discovery of Machine Learning"
+      ]
+    },
+    "esaip": {
+      "country": "France",
+      "organization": "ESAIP",
+      "degree": "Software Engineering",
+      "courses": [
+        "Abstract and Challenging Mathematics",
+        "Network",
+        "Linux Environment",
+        "Python & Java programming",
+        "Database and UML"
+      ]
+    },
+    "vilniusTech": {
+      "country": "Lithuania",
+      "organization": "VILNIUS TECH",
+      "degree": "ERASMUS, Computer Software Engineering",
+      "courses": [
+        "Java programming",
+        "OOP principles",
+        "Introduction to Statistics",
+        "Database"
+      ]
+    }
+  },
+  "footer": {
+    "copyrights": "Copyright ©",
+    "rights": "This project is licensed under the MIT License. Attribution is required."
+  }
+}

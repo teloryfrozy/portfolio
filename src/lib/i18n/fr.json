@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "experience": "Expérience",
+    "education": "Éducation",
+    "reports": "Rapports",
+    "contact": "Contact",
+    "downloadCV": "Télécharger CV"
+  },
+  "techStack": {
+    "title": "Stack technique avec laquelle j'ai de l'expérience",
+    "categories": {
+      "programming": "Langages de programmation",
+      "frameworks": "Frameworks",
+      "tools": "Outils de développement"
+    }
+  },
+  "contact": {
+    "title": "Contactez moi"
+  },
+  "about": {
+    "hi": "Bonjour",
+    "description": [
+      "Je suis étudiant en 3ème année à l'ESAIP, aspirant à devenir ingénieur en développement logiciel.",
+      "Développeur Python autodidacte, j'ai deux ans d'expérience en développement web.",
+      "Je recherche actuellement un stage international de 3 à 4 mois dans le secteur technologique cet été."
+    ]
+  },
+  "reports": {
+    "description": "Tous ces rapports ont été rédigés en LaTeX, documentant mon parcours d'apprentissage dans divers domaines techniques.",
+    "downloadButton": "Télécharger le rapport",
+    "items": {
+      "ai": {
+        "title": "Introduction à l'IA",
+        "description": "En tant que débutant en IA à l'époque, j'ai recherché et résumé tout ce que je pouvais trouver pour comprendre les bases. Ce rapport reflète mon parcours, de la méconnaissance totale à la compréhension des concepts fondamentaux."
+      },
+      "trigonometry": {
+        "title": "Démonstration des formules trigonométriques",
+        "description": "Pendant ma première année en classe préparatoire anglaise, je voulais comprendre d'où venaient les formules trigonométriques. J'ai combiné diverses démonstrations YouTube et ressources en ligne pour créer ce guide complet."
+      },
+      "latvia": {
+        "title": "Guide de ma summer school en Lettonie",
+        "description": "Après ma première expérience d'études à l'étranger, j'ai créé ce guide pour d'autres étudiants. Il couvre tout, de ce qu'il faut emporter à la manière de se préparer, pour aider les futurs étudiants à se sentir plus confiants à propos de leur voyage."
+      },
+      "network": {
+        "title": "Guide pour débutants en réseau",
+        "description": "Lorsque j'ai commencé à apprendre le réseau, j'ai créé ce guide pour mémoriser les concepts clés. Il comprend un script que j'ai développé pour les calculs d'IP et de sous-réseau, disponible sur GitHub."
+      }
+    }
+  },
+  "projects": {
+    "viewGithub": "Voir sur GitHub",
+    "viewDetails": "Voir les détails",
+    "skills": "Compétences",
+    "details": "Détails du projet",
+    "items": {
+      "aomail": {
+        "title": "Aomail",
+        "description": "Plateforme d'automatisation des e-mails alimentée par IA pour une catégorisation et gestion intelligentes.",
+        "advancedDescription": "Aomail est une application web conçue pour aider les utilisateurs à gérer leurs e-mails plus efficacement grâce à l'IA. Dans ce projet, j'ai contribué à plusieurs aspects du processus de développement logiciel.",
+        "tasks": [
+          "Développement de la page d'accueil et de l'application principale",
+          "Implémentation de l'intégration OAuth2.0 pour Gmail et Outlook",
+          "Création d'un tableau de bord administrateur pour la gestion et les analyses",
+          "Conception d'un blog pour le référencement organique"
+        ],
+        "details": [
+          "Refonte complète de la page de présentation avec Svelte, en mettant l'accent sur l'optimisation des performances et les principes de conception responsive.",
+          "Implémentation de l'intégration OAuth2.0 pour Gmail & Outlook, après un audit de sécurité par TAC Security et le processus de vérification de Google.",
+          "Développement d'un système de catégorisation avancé des e-mails utilisant des workflows LLM, permettant un tri personnalisable en fonction des préférences et comportements des utilisateurs.",
+          "Mise en œuvre de notifications d'e-mails en temps réel via des webhooks pour Gmail & Outlook, intégration du traitement des paiements Stripe et optimisation du chargement des e-mails avec des techniques de chargement paresseux efficaces.",
+          "Mise en œuvre d'une prise en charge complète multilingue utilisant i18n, avec des traductions complètes en français sur toute l'application.",
+          "Création d'un site d'information optimisé pour le SEO avec Spring Boot et PostgreSQL, mise en œuvre du suivi GA4 et pratiques de déploiement sécurisé.",
+          "Création d'un tableau de bord d'analyse affichant les métriques de coûts, les statistiques d'utilisation des jetons et les capacités de gestion des utilisateurs."
+        ],
+        "skills": [
+          "Svelte",
+          "Django",
+          "PostgreSQL",
+          "Vue.js",
+          "Docker",
+          "Nginx",
+          "TypeScript",
+          "React",
+          "Spring Boot"
+        ]
+      },
+      "server": {
+        "title": "Serveur Minecraft + Serveur de Sauvegarde",
+        "description": "Serveur Minecraft local et système de sauvegarde automatisé pour mes fichiers personnels.",
+        "advancedDescription": "Je voulais avoir un système de sauvegarde local car je ne veux pas apprendre l'importance d'une sauvegarde de la manière difficile. J'ai aussi créé un serveur Minecraft pour jouer avec mes frères et amis.",
+        "tasks": [
+          "Configuration du serveur Minecraft local avec une configuration réseau appropriée",
+          "Mise en place d'un système de gestion à distance basé sur SSH",
+          "Développement d'une solution de sauvegarde automatisée avec chiffrement"
+        ],
+        "details": [
+          "Réutilisation d'un ancien PC en tant que serveur local pour l'hébergement et les sauvegardes.",
+          "Configuration d'un serveur avec une adresse IP statique via DHCP pour un accès à distance.",
+          "Configuration de la redirection de port sécurisée et des règles de pare-feu pour protéger les connexions externes.",
+          "Établissement du montage automatique des disques au démarrage et démarrage normal après une coupure de courant pour un fonctionnement stable.",
+          "Implémentation d'un système de sauvegarde robuste et chiffré avec Duplicati pour protéger les fichiers de manière sécurisée."
+        ],
+        "skills": [
+          "Debian",
+          "SSH",
+          "Duplicati",
+          "Réseautage"
+        ]
+      },
+      "pcBuilding": {
+        "title": "Montage PC",
+        "description": "Construction de PC gaming pour moi-même et mes amis.",
+        "advancedDescription": "Je construis des PC Gaming depuis que j'ai 15 ans et mon propre ordinateur. J'ai toujours été intéressé par la compréhension du fonctionnement d'un ordinateur. Je suis toujours axé sur le meilleur rapport performance/prix.",
+        "tasks": [
+          "Sélection des composants et vérification de la compatibilité",
+          "Assemblage et cable management",
+          "Tests de performances et benchmarks",
+          "Installation du système d'exploitation et des logiciels"
+        ],
+        "details": [
+          "Recherche de la meilleure valeur en comparant les prix des composants neufs et d'occasion.",
+          "Assurance que toutes les pièces sont compatibles pour éviter les problèmes lors de l'assemblage.",
+          "Tests des performances avec des outils de benchmarking simples et des jeux.",
+          "Organisation des câbles de manière propre et installation d'un bon flux d'air pour un meilleur refroidissement.",
+          "Assemblage des PC en fonction des besoins de la personne, comme pour le gaming ou une utilisation quotidienne."
+        ],
+        "skills": [
+          "Matériel",
+          "BIOS",
+          "Windows"
+        ]
+      },
+      "laBrotique": {
+        "title": "La Bro'tique",
+        "description": "Entreprise sur Vinted avec un chiffre d'affaires de 15 000 €.",
+        "advancedDescription": "Ma première entreprise, que j'ai créée avec mon frère. J'avais l'habitude de jouer à Pokémon sur ma Nintendo 3DS quand j'étais petit. J'aime vendre des produits d'occasion en bon état qui offrent de bonnes affaires pour l'acheteur et le vendeur.",
+        "tasks": [
+          "Reverse engineering de l'API Vinted",
+          "Gestion automatisée des ventes via une application",
+          "Service client et logistique",
+          "Plus de 400 ventes et un chiffre d'affaires de 15 000 €"
+        ],
+        "details": [
+          "Création d'une entreprise de revente spécialisée dans les consoles et accessoires Nintendo.",
+          "Réparation et rénovation des consoles, création de packs avec accessoires.",
+          "Priorisation de la satisfaction client et remboursement si nécessaire.",
+          "Ventes mensuelles régulières pendant 10 mois consécutifs."
+        ],
+        "skills": [
+          "Automatisation",
+          "Gestion des affaires",
+          "Entrepreneuriat"
+        ]
+      }
+    }
+  },
+  "experiences": {
+    "itInternCesame": {
+      "country": "France",
+      "role": "Stagiaire IT",
+      "tasks": [
+        "Appris les VLANs, les commutateurs et les méthodes RAID",
+        "Réalisé une analyse de site Wi-Fi avec NetSpot",
+        "Déployé et configuré des ordinateurs sur place",
+        "Exploré les concepts de rétro-ingénierie"
+      ],
+      "technologies": [
+        "VLAN",
+        "PowerShell",
+        "PuTTY",
+        "NetSpot"
+      ]
+    },
+    "itTechnicianCesame": {
+      "country": "France",
+      "role": "Technicien IT",
+      "tasks": [
+        "Déployé des postes de travail sur site",
+        "Créé des scripts de déploiement de logiciels avec PowerShell",
+        "Migré les commutateurs de PRTG vers SolarWinds",
+        "Mis à jour les cartes de surveillance des commutateurs"
+      ],
+      "technologies": [
+        "PowerShell",
+        "Windows",
+        "PRTG",
+        "SolarWinds"
+      ]
+    },
+    "developerInternCDS": {
+      "country": "France",
+      "role": "Stagiaire développeur intégrateur",
+      "tasks": [
+        "Intégration des appels API entre le front-end et le back-end",
+        "Converti des designs Figma en composants React",
+        "Implémenté des calculs R&D dans le backend",
+        "Travaillé sur le logiciel Cognitive Screening"
+      ],
+      "technologies": [
+        "React",
+        "Electron",
+        "TypeScript",
+        "Django",
+        "Figma",
+        "Monday",
+        "SQLite"
+      ]
+    }
+  },
+  "educations": {
+    "saintBenoit": {
+      "country": "France",
+      "organization": "Saint-Benoît site Collégiale",
+      "degree": "Baccalauréat général",
+      "courses": [
+        "Découverte des algorithmes",
+        "Implémentation basique des graphes en Python",
+        "Introduction aux structures de données et POO"
+      ]
+    },
+    "rigaTechnicalUniversity": {
+      "country": "Lettonie",
+      "organization": "Riga Technical University",
+      "degree": "Summer School en informatique",
+      "courses": [
+        "Première expérience d'études à l'étranger",
+        "Découverte du machine learning"
+      ]
+    },
+    "esaip": {
+      "country": "France",
+      "organization": "ESAIP",
+      "degree": "Ingénierie Logicielle",
+      "courses": [
+        "Mathématiques abstraites et difficiles",
+        "Réseau",
+        "Environnement Linux",
+        "Programmation Python et Java",
+        "Bases de données et UML"
+      ]
+    },
+    "vilniusTech": {
+      "country": "Lituanie",
+      "organization": "VILNIUS TECH",
+      "degree": "ERASMUS, Ingénierie logicielle",
+      "courses": [
+        "Programmation Java",
+        "Principes de la POO",
+        "Introduction aux statistiques",
+        "Bases de données"
+      ]
+    }
+  },
+  "footer": {
+    "copyrights": "Copyright ©",
+    "rights": "Ce projet est sous licence MIT. Attribution requise."
+  }
+}
