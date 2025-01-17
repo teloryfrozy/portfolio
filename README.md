@@ -2,6 +2,17 @@
 
 This is my portfolio; you can use it as a template and modify it with attribution to my work. I have developed a dark mode and added a French translation.
 
+## License
+
+This project is licensed under the MIT License. You are free to:
+
+- Clone it
+- Modify it
+- Use it for anything
+
+If you like the design, feel free to fork the repository!
+
+
 ![Portfolio](readme/portfolio.png)
 
 ## Getting Started
