@@ -5,6 +5,6 @@
 
 <footer class="bg-white dark:bg-gray-900 text-gray-600 dark:text-gray-400 py-8">
     <div class="container mx-auto px-4 text-center">
-        <p>© {currentYear} Augustin ROLET. {$_("footer.rights")}</p>
+        <p>© {currentYear} {$_("footer.designedBy")} Augustin ROLET.</p>
     </div>
-</footer> 
+</footer>

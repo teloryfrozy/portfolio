@@ -192,7 +192,7 @@
     },
     "developerInternCDS": {
       "country": "France",
-      "role": "Stagiaire développeur intégrateur",
+      "role": "Développeur Web Full-Stack",
       "tasks": [
         "Intégration des appels API entre le front-end et le back-end",
         "Converti des designs Figma en composants React",
@@ -255,7 +255,6 @@
     }
   },
   "footer": {
-    "copyrights": "Copyright ©",
-    "rights": "Ce projet est sous licence MIT. Attribution requise."
+    "designedBy": "Conçu par"
   }
 }

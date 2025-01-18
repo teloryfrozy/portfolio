@@ -3,6 +3,7 @@
 
     function toggleLocale() {
         $locale = $locale === "en" ? "fr" : "en";
+        localStorage.setItem("language", $locale);
     }
 </script>
 

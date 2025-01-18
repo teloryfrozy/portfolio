@@ -10,7 +10,7 @@
         projects = [
             {
                 title: $_("projects.items.aomail.title"),
-                startDate: new Date(2024, 1, 1),
+                startDate: new Date("2024-01-01"),
                 description: $_("projects.items.aomail.description"),
                 advancedDescription: $_("projects.items.aomail.advancedDescription"),
                 tasks: $json("projects.items.aomail.tasks") as string[],
@@ -26,7 +26,7 @@
             },
             {
                 title: $_("projects.items.server.title"),
-                startDate: new Date(2024, 12, 1),
+                startDate: new Date("2023-10-01"),
                 description: $_("projects.items.server.description"),
                 advancedDescription: $_("projects.items.server.advancedDescription"),
                 tasks: $json("projects.items.server.tasks") as string[],
@@ -44,7 +44,7 @@
             },
             {
                 title: $_("projects.items.pcBuilding.title"),
-                startDate: new Date(2018, 6, 1),
+                startDate: new Date("2018-6-01"),
                 description: $_("projects.items.pcBuilding.description"),
                 advancedDescription: $_("projects.items.pcBuilding.advancedDescription"),
                 tasks: $json("projects.items.pcBuilding.tasks") as string[],
@@ -60,8 +60,8 @@
             },
             {
                 title: $_("projects.items.laBrotique.title"),
-                startDate: new Date(2022, 10, 1),
-                endDate: new Date(2023, 9, 1),
+                startDate: new Date("2022-10-01"),
+                endDate: new Date("2023-9-01"),
                 description: $_("projects.items.laBrotique.description"),
                 advancedDescription: $_("projects.items.laBrotique.advancedDescription"),
                 tasks: $json("projects.items.laBrotique.tasks") as string[],

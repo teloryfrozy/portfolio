@@ -192,7 +192,7 @@
     },
     "developerInternCDS": {
       "country": "France",
-      "role": "Developer Intern",
+      "role": "Full-Stack Web Developer",
       "tasks": [
         "Integrated APIs between front-end and back-end",
         "Converted Figma designs into React components",
@@ -255,7 +255,6 @@
     }
   },
   "footer": {
-    "copyrights": "Copyright ©",
-    "rights": "This project is licensed under the MIT License. Attribution is required."
+    "designedBy": "Designed by"
   }
 }

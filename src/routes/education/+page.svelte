@@ -14,7 +14,7 @@
                 organization: $_("educations.saintBenoit.organization"),
                 degree: $_("educations.saintBenoit.degree"),
                 startDate: new Date("2019-09-01"),
-                endDate: new Date("2022-09-01"),
+                endDate: new Date("2022-06-01"),
                 duration: "3 years",
                 courses: $json("educations.saintBenoit.courses") as string[],
                 website: "https://saintbenoitangers.org/",
@@ -36,7 +36,7 @@
                 organization: "ESAIP",
                 degree: "Software Engineering",
                 startDate: new Date("2022-09-01"),
-                endDate: new Date("2027-06-01"),
+                endDate: new Date("2027-09-01"),
                 duration: "5 years",
                 courses: [
                     "Abstract and Challenging Mathematics",
