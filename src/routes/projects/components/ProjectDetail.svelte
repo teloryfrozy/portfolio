@@ -1,6 +1,6 @@
 <script lang="ts">
     import { _ } from "svelte-i18n";
-    import { ChevronLeft, ChevronRight, X } from "lucide-svelte";
+    import { ChevronLeft, ChevronRight, ExternalLink, X } from "lucide-svelte";
     import { onDestroy, onMount } from "svelte";
     import type { Project } from "$lib/types";
     import { locale } from "svelte-i18n";
@@ -77,17 +77,6 @@
                 {#each project.details as detail}
                     <p class="mb-4 text-black dark:text-white">{detail}</p>
                 {/each}
-
-                {#if project.githubLink}
-                    <a
-                        href={project.githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="inline-flex items-center gap-2 text-primary hover:underline mt-6"
-                    >
-                        {$_("projects.viewGithub")}
-                    </a>
-                {/if}
             </div>
 
             <div>
@@ -97,6 +86,22 @@
                             ? formatDate(project.endDate, $locale)
                             : "Present"}
                     </p>
+
+                    {#if project.links}
+                        <div class="mb-4 rounded-lg space-y-2">
+                            {#each project.links as link}
+                                <a
+                                    href={link.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="flex items-center gap-2 text-gray-900 dark:text-gray-100 hover:text-primary dark:hover:text-primary-dark transition-colors duration-300"
+                                >
+                                    <ExternalLink />
+                                    <span>{link.text}</span>
+                                </a>
+                            {/each}
+                        </div>
+                    {/if}
 
                     <h3 class="text-xl font-semibold mb-4 text-black dark:text-white">{$_("projects.skills")}</h3>
                     <div class="flex flex-wrap gap-2 mb-8">

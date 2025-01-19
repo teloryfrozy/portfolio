@@ -51,7 +51,6 @@
     }
   },
   "projects": {
-    "viewGithub": "Voir sur GitHub",
     "viewDetails": "Voir les détails",
     "skills": "Compétences",
     "details": "Détails du projet",

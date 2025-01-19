@@ -22,6 +22,11 @@ export interface Education {
     logo: string;
 }
 
+interface Link {
+    text: string;
+    link: string;
+}
+
 export interface Project {
     title: string;
     startDate: Date;
@@ -32,7 +37,7 @@ export interface Project {
     details: string[];
     skills: string[];
     images: string[];
-    githubLink?: string;
+    links?: Link[];
 }
 
 export interface Report {
