@@ -28,14 +28,14 @@
 <header class="fixed top-0 left-0 right-0 bg-white dark:bg-gray-900 shadow-md z-50">
     <div class="px-4 py-4 flex items-center justify-between w-full">
         <!-- Left section - Profile picture -->
-        <div class="flex-none pl-0">
+        <div class="w-1/3 flex-none pl-0">
             <a href="/">
                 <img src="/profil.png" alt="Augustin ROLET" class="w-12 h-12 rounded-md" />
             </a>
         </div>
 
         <!-- Center section - Navigation -->
-        <nav class="hidden md:flex items-center gap-6 flex-grow justify-center">
+        <nav class="w-1/3 hidden md:flex items-center gap-6 flex-grow justify-center">
             <a
                 href="/#about"
                 class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
@@ -109,7 +109,7 @@
         </nav>
 
         <!-- Right section - Controls -->
-        <div class="flex items-center gap-4 flex-none pr-0">
+        <div class="w-1/3 flex items-center gap-4 justify-end">
             <LanguageSwitcher />
             <button
                 on:click={toggleTheme}
