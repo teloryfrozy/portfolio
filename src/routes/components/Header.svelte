@@ -8,6 +8,7 @@
 
     function setCurrentSection(section: string) {
         currentSection = section;
+        closeMenu();
     }
 
     function toggleTheme() {
@@ -18,6 +19,10 @@
     }
 
     let isMenuOpen = false;
+
+    const closeMenu = () => {
+        isMenuOpen = false;
+    };
 </script>
 
 <header class="fixed top-0 left-0 right-0 bg-white dark:bg-gray-900 shadow-md z-50">
@@ -120,7 +125,7 @@
             </button>
             <a
                 href="/resume-Augustin-ROLET.pdf"
-                class="bg-primary dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+                class="hidden md:block bg-primary dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
                 download
             >
                 {$_("nav.downloadCV")}
@@ -147,29 +152,62 @@
     {#if isMenuOpen}
         <nav class="md:hidden bg-white dark:bg-gray-900 border-t dark:border-gray-800">
             <div class="container mx-auto px-4 py-4 flex flex-col gap-4">
-                <a href="/#about" class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary">
+                <a
+                    href="/#about"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary"
+                    on:click={() => setCurrentSection("about")}
+                >
                     {$_("nav.about")}
                 </a>
-                <a href="/#skills" class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary">
+                <a
+                    href="/#skills"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary"
+                    on:click={() => setCurrentSection("skills")}
+                >
                     {$_("nav.skills")}
                 </a>
-                <a href="/projects" class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary">
+                <a
+                    href="/projects"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary"
+                    on:click={() => setCurrentSection("projects")}
+                >
                     {$_("nav.projects")}
                 </a>
                 <a
                     href="/experience"
                     class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary"
+                    on:click={() => setCurrentSection("experience")}
                 >
                     {$_("nav.experience")}
                 </a>
-                <a href="/education" class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary">
+                <a
+                    href="/education"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary"
+                    on:click={() => setCurrentSection("education")}
+                >
                     {$_("nav.education")}
                 </a>
-                <a href="/reports" class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary">
+                <a
+                    href="/reports"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary"
+                    on:click={() => setCurrentSection("reports")}
+                >
                     {$_("nav.reports")}
                 </a>
-                <a href="/#contact" class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary">
+                <a
+                    href="/#contact"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary"
+                    on:click={() => setCurrentSection("contact")}
+                >
                     {$_("nav.contact")}
+                </a>
+                <a
+                    href="/resume-Augustin-ROLET.pdf"
+                    class="md:hidden p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+                    download
+                    on:click={closeMenu}
+                >
+                    {$_("nav.downloadCV")}
                 </a>
             </div>
         </nav>
