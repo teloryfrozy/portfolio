@@ -18,7 +18,7 @@
                 title: $_("reports.items.trigonometry.title"),
                 date: new Date(2023, 12, 1),
                 description: $_("reports.items.trigonometry.description"),
-                filename: "proof-trigonometric-formulas-12-2023.pdf",
+                filename: "proof-trigonometric-formulas-12-2022.pdf",
             },
             {
                 title: $_("reports.items.latvia.title"),
