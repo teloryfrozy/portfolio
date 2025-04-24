@@ -28,6 +28,7 @@ interface Link {
 }
 
 export interface Project {
+    url: string
     title: string;
     startDate: Date;
     endDate?: Date;

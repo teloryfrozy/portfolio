@@ -9,6 +9,7 @@
 
         projects = [
             {
+                url: "/projects/aomail",
                 title: $_("projects.items.aomail.title"),
                 startDate: new Date("2024-01-01"),
                 description: $_("projects.items.aomail.description"),
@@ -29,6 +30,7 @@
                 ],
             },
             {
+                url: "/projects/local-server",
                 title: $_("projects.items.server.title"),
                 startDate: new Date("2023-10-01"),
                 description: $_("projects.items.server.description"),
@@ -47,6 +49,7 @@
                 ],
             },
             {
+                url: "/projects/pc-building",
                 title: $_("projects.items.pcBuilding.title"),
                 startDate: new Date("2018-6-01"),
                 description: $_("projects.items.pcBuilding.description"),
@@ -63,6 +66,7 @@
                 ],
             },
             {
+                url: "/projects/la-brotique",
                 title: $_("projects.items.laBrotique.title"),
                 startDate: new Date("2022-10-01"),
                 endDate: new Date("2023-9-01"),
