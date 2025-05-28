@@ -26,115 +26,116 @@
 </script>
 
 <header class="fixed top-0 left-0 right-0 bg-white dark:bg-gray-900 shadow-md z-50">
-    <div class="px-4 py-4 flex items-center justify-between w-full">
-        <!-- Left section - Profile picture -->
-        <div class="w-1/3 flex-none pl-0">
+    <div class="px-4 py-4 grid grid-cols-3 w-full">
+        <div class="flex items-center justify-start">
             <a href="/">
                 <img src="/profil.png" alt="Augustin ROLET" class="w-12 h-12 rounded-md" />
             </a>
         </div>
 
-        <!-- Center section - Navigation -->
-        <nav class="w-1/3 hidden md:flex items-center gap-6 flex-grow justify-center">
-            <a
-                href="/#about"
-                class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
-                'about'
-                    ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
-                    : ''}"
-                on:click={() => setCurrentSection("about")}
-            >
-                {$_("nav.about")}
-            </a>
-            <a
-                href="/#skills"
-                class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
-                'skills'
-                    ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
-                    : ''}"
-                on:click={() => setCurrentSection("skills")}
-            >
-                {$_("nav.skills")}
-            </a>
-            <a
-                href="/projects"
-                class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
-                'projects'
-                    ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
-                    : ''}"
-                on:click={() => setCurrentSection("projects")}
-            >
-                {$_("nav.projects")}
-            </a>
-            <a
-                href="/experience"
-                class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
-                'experience'
-                    ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
-                    : ''}"
-                on:click={() => setCurrentSection("experience")}
-            >
-                {$_("nav.experience")}
-            </a>
-            <a
-                href="/education"
-                class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
-                'education'
-                    ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
-                    : ''}"
-                on:click={() => setCurrentSection("education")}
-            >
-                {$_("nav.education")}
-            </a>
-            <a
-                href="/reports"
-                class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
-                'reports'
-                    ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
-                    : ''}"
-                on:click={() => setCurrentSection("reports")}
-            >
-                {$_("nav.reports")}
-            </a>
-            <a
-                href="/#contact"
-                class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
-                'contact'
-                    ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
-                    : ''}"
-                on:click={() => setCurrentSection("contact")}
-            >
-                {$_("nav.contact")}
-            </a>
-        </nav>
+        <div class="hidden sm:flex items-center justify-center z-50">
+            <div class="flex gap-6 items-center justify-center whitespace-nowrap">
+                <a
+                    href="/#about"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
+                    'about'
+                        ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
+                        : ''}"
+                    on:click={() => setCurrentSection("about")}
+                >
+                    {$_("nav.about")}
+                </a>
+                <a
+                    href="/#skills"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
+                    'skills'
+                        ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
+                        : ''}"
+                    on:click={() => setCurrentSection("skills")}
+                >
+                    {$_("nav.skills")}
+                </a>
+                <a
+                    href="/projects"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
+                    'projects'
+                        ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
+                        : ''}"
+                    on:click={() => setCurrentSection("projects")}
+                >
+                    {$_("nav.projects")}
+                </a>
+                <a
+                    href="/experience"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
+                    'experience'
+                        ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
+                        : ''}"
+                    on:click={() => setCurrentSection("experience")}
+                >
+                    {$_("nav.experience")}
+                </a>
+                <a
+                    href="/education"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
+                    'education'
+                        ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
+                        : ''}"
+                    on:click={() => setCurrentSection("education")}
+                >
+                    {$_("nav.education")}
+                </a>
+                <a
+                    href="/reports"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
+                    'reports'
+                        ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
+                        : ''}"
+                    on:click={() => setCurrentSection("reports")}
+                >
+                    {$_("nav.reports")}
+                </a>
+                <a
+                    href="/#contact"
+                    class="hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md p-2 hover:text-primary {currentSection ===
+                    'contact'
+                        ? 'bg-gray-200 dark:bg-gray-700 rounded-md p-2'
+                        : ''}"
+                    on:click={() => setCurrentSection("contact")}
+                >
+                    {$_("nav.contact")}
+                </a>
+            </div>
+        </div>
 
-        <!-- Right section - Controls -->
-        <div class="w-1/3 flex items-center gap-4 justify-end">
-            <LanguageSwitcher />
-            <button
-                on:click={toggleTheme}
-                class="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
-                aria-label={$_("theme.toggle")}
-            >
-                <div class="dark:hidden" title={$_("theme.dark")}>
-                    <MoonIcon class="w-5 h-5" />
-                </div>
-                <div class="hidden dark:block" title={$_("theme.light")}>
-                    <SunIcon class="w-5 h-5" />
-                </div>
-            </button>
-            <a
-                href="/resume-Augustin-ROLET.pdf"
-                class="hidden md:block bg-primary dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
-                download
-            >
-                {$_("nav.downloadCV")}
-            </a>
+        <div class="flex items-center justify-end sm:justify-end sm:items-center justify-center gap-4">
+            <div class="text-right flex items-center justify-end gap-2">
+                <LanguageSwitcher />
+                <button
+                    on:click={toggleTheme}
+                    class="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+                    aria-label={$_("theme.toggle")}
+                >
+                    <div class="dark:hidden" title={$_("theme.dark")}>
+                        <MoonIcon class="w-5 h-5" />
+                    </div>
+                    <div class="hidden dark:block" title={$_("theme.light")}>
+                        <SunIcon class="w-5 h-5" />
+                    </div>
+                </button>
+                <a
+                    href="/resume-Augustin-ROLET.pdf"
+                    class="hidden md:block bg-primary dark:text-white px-4 py-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+                    download
+                >
+                    {$_("nav.downloadCV")}
+                </a>
+            </div>
         </div>
 
         <!-- Mobile menu button -->
         <button
-            class="md:hidden p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+            class="md:hidden p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 justify-self-end"
             on:click={() => (isMenuOpen = !isMenuOpen)}
             aria-label="Toggle menu"
         >

@@ -12,6 +12,7 @@
                 url: "/projects/aomail",
                 title: $_("projects.items.aomail.title"),
                 startDate: new Date("2024-01-01"),
+                endDate: new Date("2025-03-15"),
                 description: $_("projects.items.aomail.description"),
                 advancedDescription: $_("projects.items.aomail.advancedDescription"),
                 tasks: $json("projects.items.aomail.tasks") as string[],
