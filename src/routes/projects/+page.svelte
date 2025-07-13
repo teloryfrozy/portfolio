@@ -26,8 +26,6 @@
                 ],
                 links: [
                     { text: "Github", link: "https://github.com/aomail-ai" },
-                    { text: "Landing page", link: "https://aomail.ai" },
-                    { text: "Blog", link: "https://info.aomail.ai" },
                 ],
             },
             {

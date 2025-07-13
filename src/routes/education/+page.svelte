@@ -10,28 +10,6 @@
 
         educations = [
             {
-                country: $_("educations.saintBenoit.country"),
-                organization: $_("educations.saintBenoit.organization"),
-                degree: $_("educations.saintBenoit.degree"),
-                startDate: new Date("2019-09-01"),
-                endDate: new Date("2022-06-01"),
-                duration: "3 years",
-                courses: $json("educations.saintBenoit.courses") as string[],
-                website: "https://saintbenoitangers.org/",
-                logo: "/educations/saint-benoit-logo.png",
-            },
-            {
-                country: "Latvia",
-                organization: "Riga Technical University",
-                degree: "Computer Science Summer School",
-                startDate: new Date("2023-07-01"),
-                endDate: new Date("2023-07-31"),
-                duration: "1 month",
-                courses: ["First time studying abroad", "Discovery of Machine Learning"],
-                website: "https://www.rtu.lv",
-                logo: "/educations/rtu-logo.jpg",
-            },
-            {
                 country: "France",
                 organization: "ESAIP",
                 degree: "Software Engineering",
@@ -58,6 +36,28 @@
                 courses: ["Java programming", "OOP principles", "Introduction to Statistics", "Database"],
                 website: "https://vilniustech.lt/",
                 logo: "/educations/vilnius-tech-logo.jpg",
+            },
+            {
+                country: "Latvia",
+                organization: "Riga Technical University",
+                degree: "Computer Science Summer School",
+                startDate: new Date("2023-07-01"),
+                endDate: new Date("2023-07-31"),
+                duration: "1 month",
+                courses: ["First time studying abroad", "Discovery of Machine Learning"],
+                website: "https://www.rtu.lv",
+                logo: "/educations/rtu-logo.jpg",
+            },
+            {
+                country: $_("educations.saintBenoit.country"),
+                organization: $_("educations.saintBenoit.organization"),
+                degree: $_("educations.saintBenoit.degree"),
+                startDate: new Date("2019-09-01"),
+                endDate: new Date("2022-06-01"),
+                duration: "3 years",
+                courses: $json("educations.saintBenoit.courses") as string[],
+                website: "https://saintbenoitangers.org/",
+                logo: "/educations/saint-benoit-logo.png",
             },
         ];
     }

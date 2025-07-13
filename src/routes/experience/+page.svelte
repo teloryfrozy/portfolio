@@ -9,15 +9,15 @@
 
         experiences = [
             {
-                country: $_("experiences.itInternCesame.country"),
-                company: "CESAME",
-                role: $_("experiences.itInternCesame.role"),
-                startDate: new Date("2023-02-01"),
-                endDate: new Date("2023-02-28"),
-                tasks: $json("experiences.itInternCesame.tasks") as string[],
-                technologies: $json("experiences.itInternCesame.technologies") as string[],
-                website: "https://www.ch-cesame-angers.fr/",
-                logo: "/experiences/cesame-logo.png",
+                country: $_("experiences.developerInternCDS.country"),
+                company: "Cognitive Design Systems",
+                role: $_("experiences.developerInternCDS.role"),
+                startDate: new Date("2024-06-01"),
+                endDate: new Date("2024-08-31"),
+                tasks: $json("experiences.developerInternCDS.tasks") as string[],
+                technologies: $json("experiences.developerInternCDS.technologies") as string[],
+                website: "https://www.cognitive-design-systems.com/",
+                logo: "/experiences/cds-logo.png",
             },
             {
                 country: $_("experiences.itTechnicianCesame.country"),
@@ -30,16 +30,17 @@
                 website: "https://www.ch-cesame-angers.fr/",
                 logo: "/experiences/cesame-logo.png",
             },
+
             {
-                country: $_("experiences.developerInternCDS.country"),
-                company: "Cognitive Design Systems",
-                role: $_("experiences.developerInternCDS.role"),
-                startDate: new Date("2024-06-01"),
-                endDate: new Date("2024-08-31"),
-                tasks: $json("experiences.developerInternCDS.tasks") as string[],
-                technologies: $json("experiences.developerInternCDS.technologies") as string[],
-                website: "https://www.cognitive-design-systems.com/cognitive-screening",
-                logo: "/experiences/cds-logo.png",
+                country: $_("experiences.itInternCesame.country"),
+                company: "CESAME",
+                role: $_("experiences.itInternCesame.role"),
+                startDate: new Date("2023-02-01"),
+                endDate: new Date("2023-02-28"),
+                tasks: $json("experiences.itInternCesame.tasks") as string[],
+                technologies: $json("experiences.itInternCesame.technologies") as string[],
+                website: "https://www.ch-cesame-angers.fr/",
+                logo: "/experiences/cesame-logo.png",
             },
         ];
     }
